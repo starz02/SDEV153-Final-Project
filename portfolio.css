@@ -1,10 +1,11 @@
 body {margin: 0; font-family: "Lato", sans-serif; }
 .sidebar {margin:0;padding: 0;width: 200px; background-color: #EFFAFD;;
     position: fixed;height: 100%;overflow: auto;}
-.sidebar a {display: block;color: black;padding: 16px;
+.sidebar a {display: block;color: #4A8BDF;padding: 16px;
     text-decoration: none;}
-.sidebar a.active {background-color: #4A8BDF; color: #FFFFFF;}
-.sidebar a:hover:not(.active) { background-color: #555; color: #FFFFFF;}
+.sidebar a.active {background-color: #A0006D; color: #EFFAFD;}
+.sidebar a:hover:not(.active) { background-color: #555; color: #EFFAFD;}
 div.content { margin-left: 200px; padding: 1px 16px; height: 1000px;}
 header {background-color: #EFFAFD;color: #4A8BDF; margin-left: 200px; text-align: center; overflow: auto;}
-main {background-color: #EFFAFD;}
+main {background-color: #EFFAFD; ;}
+h2 {color:#4A8BDF}
