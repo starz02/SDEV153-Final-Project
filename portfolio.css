@@ -13,10 +13,10 @@ h2 {color:#4A8BDF}
 h3 {color:#4A8BDF}
 #cssjscss {background-image:url(jshtmlcss.png); background-position-x: center;
   height: 350px; background-repeat: no-repeat; background-size: 50% 100%; }
-#homepage {background-image:url(homepage.png); margin-left: 200px;
-  height: 250px; background-repeat: no-repeat; background-size: 45% 100%; }
+.photo {background-image:url(homepage.png); margin-left: 200px;
+  height: 250px; background-repeat: no-repeat; background-size: 45% 100%; width: 50%; }
 .text-box { width: 20%; padding: 10px; margin:auto; font-weight: bold;}
-.center {display: block;margin-left: auto;margin-right: auto;width: 50%}
+.center {display: block;margin-left: auto;margin-right: auto;width: 75%}
 .button { background-color:#A0006D ; }
 * {box-sizing: border-box;}
 input[type=text], select, textarea {width: 100%;padding: 12px; border: 1px solid #ccc;border-radius: 4px;
