@@ -8,24 +8,23 @@ body {margin: 0; font-family: "Lato", sans-serif; background-color: #EFFAFD }
 div.content { margin-left: 200px; padding: 1px 16px; height: 1000px;}
 header {background-color: #EFFAFD;color: #4A8BDF; text-align: center; overflow: auto;}
 main {background-color: #EFFAFD;}
-h3 {margin-left: 200px;}
-ol, li {margin-left: 200px;}
 h1 {color: #4A8BDF}
 h2 {color:#4A8BDF}
+h3 {color:#4A8BDF}
 #cssjscss {background-image:url(jshtmlcss.png); background-position-x: center;
   height: 350px; background-repeat: no-repeat; background-size: 50% 100%; }
 .text-box { width: 20%; padding: 10px; margin:auto; font-weight: bold;}
 .center {display: block;margin-left: auto;margin-right: auto;width: 50%}
 .button { background-color:#A0006D ; }
 * {box-sizing: border-box;}
+
 input[type=text], select, textarea {width: 100%;padding: 12px; border: 1px solid #ccc;border-radius: 4px;
   box-sizing: border-box; margin-top: 6px;margin-bottom: 16px;resize: vertical;}
 
 input[type=submit] { background-color:#A0006D ; color: white; padding: 12px 20px; border: none;
   border-radius: 4px; cursor: pointer;}
 
-input[type=submit]:hover {
-  background-color: #820059;}
+input[type=submit]:hover {background-color: #820059;}
   @media screen and (max-width: 1100px) {
     .sidebar {width: 100%; height: auto; position: relative;}
       .sidebar a {float: left;}div.content {margin-left: 0;}
