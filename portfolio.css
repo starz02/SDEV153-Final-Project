@@ -6,9 +6,16 @@ body {margin: 0; font-family: "Lato", sans-serif; background-color: #EFFAFD }
 .sidebar a.active {background-color: #A0006D; color: #EFFAFD;}
 .sidebar a:hover:not(.active) { background-color: #A0006D; color: #EFFAFD;}
 div.content { margin-left: 200px; padding: 1px 16px; height: 1000px;}
-header {background-color: #EFFAFD;color: #4A8BDF; margin-left: 200px; text-align: center; overflow: auto;}
+header {background-color: #EFFAFD;color: #4A8BDF; text-align: center; overflow: auto;}
 main {background-color: #EFFAFD;}
+h3 {margin-left: 200px;}
+ol, li {margin-left: 200px;}
 h2 {color:#4A8BDF}
+#cssjscss {background-position-x: center; background-image:url(jshtmlcss.png);
+  height: 350px; background-repeat: no-repeat; background-size: 100% 100%; width: 25%;}
+.center {
+display: block;margin-left: auto;margin-right: auto;width: 50%;
+}
 .button { background-color:#A0006D ; }
 @media screen and (max-width: 700px) {
     .sidebar {width: 100%; height: auto; position: relative;}
