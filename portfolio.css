@@ -14,7 +14,7 @@ h1 {color: #4A8BDF}
 h2 {color:#4A8BDF}
 #cssjscss {background-image:url(jshtmlcss.png); background-position-x: center;
   height: 350px; background-repeat: no-repeat; background-size: 50% 100%; }
-div.text-box { width: 20%; padding: 10px; margin:auto; font-weight: bold;}
+.text-box { width: 20%; padding: 10px; margin:auto; font-weight: bold;}
 .center {display: block;margin-left: auto;margin-right: auto;width: 50%}
 .button { background-color:#A0006D ; }
 * {box-sizing: border-box;}
@@ -29,10 +29,12 @@ input[type=submit]:hover {
   @media screen and (max-width: 1100px) {
     .sidebar {width: 100%; height: auto; position: relative;}
       .sidebar a {float: left;}div.content {margin-left: 0;}
-      #cssjscss {background-size: 100% 100%; width: 100%}
+      #cssjscss {width: auto;}
+      .text-box {width: 75%;}
+      iframe {width: auto}
     }
   @media screen and (max-width: 700px) {
     .sidebar a {text-align: center;float: none;}
-    #cssjscss {background-size: 100% 100%; width: 100%}
-
+    #cssjscss {width: auto}
+    .text-box {width: 75%;}
   }
