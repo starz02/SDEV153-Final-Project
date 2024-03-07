@@ -10,7 +10,7 @@ header {background-color: #EFFAFD;color: #4A8BDF; text-align: center; overflow: 
 main {background-color: #EFFAFD;}
 h1 {color: #4A8BDF}
 h2 {color:#4A8BDF}
-h3 {color:#4A8BDF}
+h3 {color:#4A8BDF;}
 li a:link {color: #A0006D;}
 li a:visited {color: #820059}
 li a:hover {color: #4A8BDF}
@@ -21,6 +21,8 @@ li a:hover {color: #4A8BDF}
 .button { background-color:#A0006D ; }
 * {box-sizing: border-box;}
 input[type=text], select, textarea {width: 100%;padding: 12px; border: 1px solid #ccc;border-radius: 4px;
+  box-sizing: border-box; margin-top: 6px;margin-bottom: 16px;resize: vertical;}
+input[type=number], select, textarea {width: 100%;padding: 12px; border: 1px solid #ccc;border-radius: 4px;
   box-sizing: border-box; margin-top: 6px;margin-bottom: 16px;resize: vertical;}
 
 input[type=submit] { background-color:#A0006D ; color: white; padding: 12px 20px; border: none;
