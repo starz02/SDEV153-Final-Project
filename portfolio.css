@@ -20,6 +20,8 @@ li a:hover {color: #4A8BDF}
 .center {display: block;margin-left: auto;margin-right: auto;width: 75%}
 .button { background-color:#A0006D ; }
 * {box-sizing: border-box;}
+.column {flex: 50%;padding: 0 4px;}
+.column img {margin-top: 8px; vertical-align: middle}
 input[type=text], select, textarea {width: 100%;padding: 12px; border: 1px solid #ccc;border-radius: 4px;
   box-sizing: border-box; margin-top: 6px;margin-bottom: 16px;resize: vertical;}
 input[type=number], select, textarea {width: 100%;padding: 12px; border: 1px solid #ccc;border-radius: 4px;
