@@ -14,7 +14,7 @@ h3 {color:#4A8BDF;}
 li a:link {color: #A0006D;}
 li a:visited {color: #820059}
 li a:hover {color: #4A8BDF}
-#cssjscss {background-image:url(jshtmlcss.png); background-position-x: center;
+#cssjscss {background-image:url(images/jshtmlcss.png); background-position-x: center;
   height: 350px; background-repeat: no-repeat; background-size: 50% 100%; }
 .text-box { width: 20%; padding: 10px; margin:auto; font-weight: bold;}
 .center {display: block;margin-left: auto;margin-right: auto;width: 75%}
@@ -33,6 +33,7 @@ input[type=submit] { background-color:#A0006D ; color: white; padding: 12px 20px
   border-radius: 4px; cursor: pointer;}
 
 input[type=submit]:hover {background-color: #820059;}
+
   @media screen and (max-width: 1100px) {
     .sidebar {width: 100%; height: auto; position: relative;}
       .sidebar a {float: left;}div.content {margin-left: 0;}
