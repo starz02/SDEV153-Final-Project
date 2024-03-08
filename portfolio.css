@@ -32,6 +32,7 @@ input[type=submit] { background-color:#A0006D ; color: white; padding: 12px 20px
 input[type=submit]:hover {background-color: #820059;}
 td {border: 2px solid #A0006D;position: relative;padding: 18px; color:#4A8BDF;}
 td a {color: #4A8BDF;}
+ul.no-bullets { list-style-type: none; margin: 0; padding: 0; }
   @media screen and (max-width: 1100px) {
     .sidebar {width: 100%; height: auto; position: relative;}
       .sidebar a {float: left;}div.content {margin-left: 0;}
