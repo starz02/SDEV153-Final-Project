@@ -29,9 +29,10 @@ input[type=email], select, textarea {width: 100%;padding: 12px; border: 1px soli
   box-sizing: border-box; margin-top: 6px;margin-bottom: 16px;resize: vertical;}
 
 input[type=submit] { background-color:#A0006D ; color: white; padding: 12px 20px; border: none;
-  border-radius: 4px; cursor: pointer;}
+  border-radius: 4px; cursor: pointer; margin: auto; display: block;}
 
 input[type=submit]:hover {background-color: #820059;}
+
 td {border: 2px solid #A0006D;position: relative;padding: 18px; color:#4A8BDF;}
 td a {color: #4A8BDF;}
 li {font-weight: bolder; color: #4A8BDF; margin: 10px;}
