@@ -8,9 +8,11 @@ body {margin: 0; font-family: "Lato", sans-serif; background-color: #EFFAFD }
 div.content { margin-left: 200px; padding: 1px 16px;}
 header {background-color: #EFFAFD;color: #4A8BDF; text-align: center; overflow: auto;}
 main {background-color: #EFFAFD;}
-h1 {color: #4A8BDF}
-h2 {color:#4A8BDF}
+h1 {color: #4A8BDF; text-align: center;}
+h2 {color:#4A8BDF; text-align: center;}
 h3 {color:#4A8BDF;}
+h4 {text-align: center;color:#4A8BDF}
+p {color: #A0006D; text-align: center;}
 #cssjscss {background-image:url(images/jshtmlcss.png); background-position-x: center;
   height: 350px; background-repeat: no-repeat; background-size: 50% 100%; }
 .text-box { width: 20%; padding: 10px; margin:auto; font-weight: bold;}
@@ -32,7 +34,10 @@ input[type=submit] { background-color:#A0006D ; color: white; padding: 12px 20px
 input[type=submit]:hover {background-color: #820059;}
 td {border: 2px solid #A0006D;position: relative;padding: 18px; color:#4A8BDF;}
 td a {color: #4A8BDF;}
+li {font-weight: bolder; color: #4A8BDF; margin: 10px;}
 ul.no-bullets { list-style-type: none; margin: 0; padding: 0; }
+iframe {width: auto; border:0; display: block; margin: auto;}
+footer {text-align: center; margin: 10px; color: #A0006D;}
   @media screen and (max-width: 1100px) {
     .sidebar {width: 100%; height: auto; position: relative;}
       .sidebar a {float: left;}div.content {margin-left: 0;}
